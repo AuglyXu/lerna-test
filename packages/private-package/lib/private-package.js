@@ -3,5 +3,5 @@
 module.exports = privatePackage;
 
 function privatePackage() {
-    return "changed something from privatePackage";
+    return "changed 2 something from privatePackage";
 }
