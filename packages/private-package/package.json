@@ -1,6 +1,6 @@
 {
   "name": "private-package",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "xuxianzhe <xuxianzhe1998@163.com>",
   "homepage": "https://github.com/AuglyXu/lerna-test#readme",
@@ -29,5 +29,5 @@
   "dependencies": {
     "antd": "^4.23.2"
   },
-  "gitHead": "d273609b255d2e5795c39f516c93cbd0d7d7b070"
+  "gitHead": "665b1c1f1786db869427889e8a9efd32743aa112"
 }

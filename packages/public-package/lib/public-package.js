@@ -3,5 +3,5 @@
 module.exports = publicPackage;
 
 function publicPackage() {
-    return "Hello from publicPackage";
+    return "Hello 5 from publicPackage";
 }
