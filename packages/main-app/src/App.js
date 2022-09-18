@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import privatePackage from 'private-package'
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          {privatePackage()}
         </a>
       </header>
     </div>

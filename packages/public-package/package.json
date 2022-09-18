@@ -1,6 +1,6 @@
 {
   "name": "public-package",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "main": "lib/public-package.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,5 @@
   "dependencies": {
     "antd": "^4.23.2"
   },
-  "gitHead": "98a79f23902697f2907e97dbdb220df484680d40"
+  "gitHead": "d273609b255d2e5795c39f516c93cbd0d7d7b070"
 }
