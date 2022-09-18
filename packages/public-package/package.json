@@ -1,15 +1,11 @@
 {
   "name": "public-package",
-  "version": "0.0.5",
-  "description": "> TODO: description",
-  "main": "lib/public-package.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "version": "0.0.0",
+  "description": "lerna, public-package",
   "author": "xuxianzhe <xuxianzhe1998@163.com>",
-  "license": "ISC",
   "homepage": "https://github.com/AuglyXu/lerna-test#readme",
+  "license": "ISC",
+  "main": "lib/public-package.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,18 +13,14 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AuglyXu/lerna-test.git"
   },
+  "scripts": {
+    "test": "node ./__tests__/public-package.test.js"
+  },
   "bugs": {
     "url": "https://github.com/AuglyXu/lerna-test/issues"
-  },
-  "dependencies": {
-    "antd": "^4.23.2"
-  },
-  "gitHead": "665b1c1f1786db869427889e8a9efd32743aa112"
+  }
 }
