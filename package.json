@@ -4,6 +4,9 @@
 	"workspaces": [
 		"packages/*"
 	],
+	"scripts": {
+		"start:web": "yarn workspace @company/ui start"
+	},
 	"devDependencies": {
 		"lerna": "^5.5.0"
 	}
