@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import pic from './image_default_bar02_dark.png';
+import { echartsLayer } from 'insight-iclient-leaflet';
 
+console.log('echartsLayer', echartsLayer({}))
 function App() {
 	return (
 		<div className="App">

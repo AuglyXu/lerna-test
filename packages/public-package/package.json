@@ -6,6 +6,11 @@
   "homepage": "https://github.com/AuglyXu/lerna-test#readme",
   "license": "ISC",
   "main": "lib/public-package.js",
+  "dependencies": {
+    "insight-iclient-leaflet": "1.0.4",
+    "leaflet": "1.7.1",
+    "leaflet.markercluster": "1.5.3"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"

@@ -19,7 +19,13 @@ module.exports = require('./rspack.base.config')({
 		port: 3100,
 		historyApiFallback: {
 			disableDotRule: true,
-			index: '/insight/webui/',
+			index: paths.publicPath,
+		},
+		static: {
+			publicPath: [paths.publicPath],
+		},
+		devMiddleware: {
+			publicPath: paths.publicPath.slice(0, -1),
 		},
 		// quiet: true,
 		open: true,

@@ -13,7 +13,7 @@ module.exports = (options) => ({
 	/** 出口 */
 	output: {
 		path: path.resolve(process.cwd(), 'build'),
-		publicPath: '/insight/webui/',
+		publicPath: paths.publicPath,
 		...options.output,
 	},
 	/** 打包优化 */
@@ -48,7 +48,11 @@ module.exports = (options) => ({
 				type: 'asset/source',
 			},
 			{
-				test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+				test: /\.png$/,
+				type: 'asset/resource',
+			},
+			{
+				test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/],
 				type: 'asset/source',
 			},
 			{
