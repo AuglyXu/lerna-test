@@ -15,7 +15,7 @@ module.exports = require('./rspack.base.config')({
 	devServer: {
 		compress: true,
 		hot: true,
-		host: 'www.company.ui.cn',
+		host: '127.0.0.1',
 		port: 3100,
 		historyApiFallback: {
 			disableDotRule: true,
@@ -53,6 +53,7 @@ module.exports = require('./rspack.base.config')({
 		],
 		define: {
 			'process.env.NODE_ENV': JSON.stringify('development'),
+			'process.env.NODE_DEBUG': JSON.stringify(false),
 			/** 处理项目里的 PUBLIC_URL */
 			'process.env.PUBLIC_URL': JSON.stringify(paths.publicPath.slice(0, -1)),
 		},
